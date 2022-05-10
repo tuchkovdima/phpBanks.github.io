@@ -1,3 +1,5 @@
+<html>
+
 <?PHP
 $data = [
     'banks' => array( 
@@ -39,3 +41,4 @@ header('Content-type: application/json');
 echo json_encode( $data );
 
 ?>
+</html>
